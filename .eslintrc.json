@@ -1,0 +1,4 @@
+{
+    "extends": "./node_modules/pb-node-modules/linters/eslintrc.json",
+    "parser": "babel-eslint"
+}
