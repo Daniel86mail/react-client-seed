@@ -13,12 +13,10 @@
     "analyze": "cross-env ENVIRONMENT_TYPE=production --env.analyze=true webpack ",
     "deploy": "node ./scripts/deploy.js"
   },
-  "author": "Playbuzz",
+  "author": "Daniel",
   "license": "ISC",
   "dependencies": {
     "@material-ui/core": "^4.10.2",
-    "@playbuzz/deployment-util": "^1.0.1",
-    "pb-node-modules": "git+ssh://git@github.com/playbuzz/node-modules.git#master",
     "react": "^16.7.0",
     "react-dom": "^16.7.0"
   },
