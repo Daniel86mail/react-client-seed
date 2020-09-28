@@ -18,7 +18,8 @@
   "dependencies": {
     "@material-ui/core": "^4.10.2",
     "react": "^16.7.0",
-    "react-dom": "^16.7.0"
+    "react-dom": "^16.7.0",
+    "react-router-dom": "^5.2.0"
   },
   "devDependencies": {
     "@storybook/addon-actions": "^5.1.9",
