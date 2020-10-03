@@ -1,0 +1,10 @@
+.a-component {
+    display: flex;
+    flex-direction: column;
+    .message{
+        font-size: 26px;
+    }
+    .user-name {
+        color: lightcoral
+    }
+}
