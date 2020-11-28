@@ -1,13 +1,9 @@
-// import React from 'react';
-// import { storiesOf } from '@storybook/react';
-//
-// import componentName from '../src/components/componentName.component';
-//
-// storiesOf('Preview step', module)
-//     .add('Breadcrumbs - empty item', () => (
-//         <componentName />
-//     ))
-//     .add('Breadcrumbs - item', () => (
-//         'hhhhh'
-//     ));
-// todo
+import React from 'react';
+import { storiesOf } from '@storybook/react';
+
+import A from '../src/components/a.component';
+
+storiesOf('A component', module)
+    .add('a component', () => (
+        <A msg="storybook test" />
+    ));

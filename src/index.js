@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 import { Redirect, Route, BrowserRouter as Router } from 'react-router-dom';
 import A from './components/a.component';
 
-import style from './app.css'; // eslint-disable-line no-unused-vars
+import style from './app.scss'; // eslint-disable-line no-unused-vars
 
 const BComp = () => (<div>Hello from B component</div>);
 

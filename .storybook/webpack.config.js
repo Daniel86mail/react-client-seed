@@ -1,5 +1,4 @@
 const path = require('path');
-const MinimalSvtstoreWebpackPlugin = require('minimal-svgstore-webpack-plugin');
 
 module.exports = async ({ config }) => {
     config.module.rules.push({
@@ -12,10 +11,6 @@ module.exports = async ({ config }) => {
         test: /\.svg$/,
         use: 'minimal-svgstore-loader',
     });
-
-    config.plugins.push(new MinimalSvtstoreWebpackPlugin({
-        prefix: 'pb-story-icon-',
-    }));
 
     return config;
 };

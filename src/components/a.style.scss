@@ -3,8 +3,12 @@
     flex-direction: column;
     .message{
         font-size: 26px;
+        text-transform: capitalize;
     }
     .user-name {
         color: lightcoral
+    }
+    .error-msg {
+        color: red;
     }
 }

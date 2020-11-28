@@ -11,7 +11,9 @@
     "lint": "eslint ./src",
     "lint:fix": "eslint ./src --fix",
     "analyze": "cross-env ENVIRONMENT_TYPE=production --env.analyze=true webpack ",
-    "deploy": "node ./scripts/deploy.js"
+    "deploy": "node ./scripts/deploy.js",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
   },
   "author": "Daniel",
   "license": "ISC",
@@ -20,15 +22,18 @@
     "axios": "^0.20.0",
     "react": "^16.7.0",
     "react-dom": "^16.7.0",
-    "react-router-dom": "^5.2.0"
+    "react-router-dom": "^5.2.0",
+    "storybook": "^6.1.8"
   },
   "devDependencies": {
-    "@storybook/addon-actions": "^5.1.9",
-    "@storybook/addon-notes": "^5.1.9",
-    "@storybook/react": "^5.1.9",
     "@babel/core": "^7.2.2",
     "@babel/preset-env": "^7.2.3",
     "@babel/preset-react": "^7.0.0",
+    "@storybook/addon-actions": "^6.1.8",
+    "@storybook/addon-essentials": "^6.1.8",
+    "@storybook/addon-links": "^6.1.8",
+    "@storybook/addon-notes": "^5.1.9",
+    "@storybook/react": "^6.1.8",
     "babel-eslint": "^10.0.1",
     "babel-loader": "^8.0.4",
     "babel-minify-webpack-plugin": "^0.3.1",

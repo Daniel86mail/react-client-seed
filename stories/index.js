@@ -1,5 +1,4 @@
 
-// import '../src/styles/app.scss';
+import '../src/app.scss';
 
-// import './componentName.story';
-// todo
+import './componentName.story';
